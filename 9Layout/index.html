@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Display</title>
+    <style>
+    /*untuk menghilangkan display img{ display: none;} */
+
+        
+    .navigasi{
+        background-color: aquamarine;
+    }
+
+    .footer{
+        font-size: 20px;
+    }
+
+    .main{
+        background-color: red;
+    }
+
+    a{
+        background-color: violet;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        /* pakai perintah inline blok untuk mengatur tinggi inline,   */
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        /* Hanya img yg inline dapata berubah ukuran */
+    }
+    .main{
+        width: 700px;
+    }
+
+    .main h2{
+        background-color: darkblue;
+        /* display blok akan mengikuti perilaku dari parent */
+    }
+
+    span{
+        background-color: yellow;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        
+        /* -elemen yang tidak menambah baris
+        - lebar tinggi elemen sebesar konten diddalam, jika menambah konten akan berada sebaris
+        - tidak dapat diatur tinggi dan lebar
+        - margin padding berpengaruh elemen secara horizontal saja
+        - span,b,strong,i,em, a,sub,sup,button, input, label,select,textarea mempunyai display inline */
+
+    }
+    </style>
+
+    </head>
+
+<body>
+    <img id="none" src="images.jpeg" alt="">
+    <div class="header">
+        <h1>Selamat Datang di Website Kami</h1>
+    </div>
+
+    <div class="navigasi">
+        <h2>Daftar Link</h2>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+
+    <div class="main">
+
+        <h2>Judul Artikel</h2>
+        <h2>Judul Artikel</h2>
+        <img src="images.jpeg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quidem quaerat provident, unde tempore veritatis nostrum accusantium rerum facere deserunt natus totam laudantium temporibus. Aperiam earum cupiditate perspiciatis quis temporibus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consequuntur aliquid similique excepturi harum eveniet eius blanditiis! Nam neque distinctio a ullam amet illo veniam, ipsum span <span>laudantium pariatur quam tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione est exercit</span> ationem repellat recusandae, temporibus maxime libero delectus deserunt sint porro aliquid nisi rerum doloremque unde mollitia tempore, a officia.</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quidem quaerat provident, unde tempore veritatis nostrum accusantium rerum facere deserunt natus totam laudantium temporibus. Aperiam earum cupiditate perspiciatis quis temporibus.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis consequuntur aliquid similique excepturi harum eveniet eius blanditiis! Nam neque distinctio a ullam amet illo veniam, ipsum laudantium pariatur quam tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione est exercitationem repellat recusandae, temporibus maxime libero delectus deserunt sint porro aliquid nisi rerum doloremque unde mollitia tempore, a officia.</p>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2020. Sepohon Kayu</p>
+    </div>
+
+
+
+</body>
+</html>

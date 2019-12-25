@@ -1,3 +1,4 @@
 - csszengarden.com
 - css-tricks.com/almanac
 - subtlepatterns.com -> backgraound image
+- specificty.keegan.st -> kalkulator specificity
