@@ -2,3 +2,5 @@
 - css-tricks.com/almanac
 - subtlepatterns.com -> backgraound image
 - specificty.keegan.st -> kalkulator specificity
+- unsplash.com -> free image
+- https://www.toptal.com/designers/subtlepatterns/ -> Pattern backgraound Free
