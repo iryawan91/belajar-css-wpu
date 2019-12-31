@@ -1,0 +1,16 @@
+.container{
+    width: 700px;
+    margin:auto;
+    border : solid 1px black;
+    padding : 5px;
+    /* overflow: auto; 
+    teknik untuk menyesuaikan tinggi*/
+}
+
+img{
+    float:left;
+}
+
+.clear{
+    clear:left;
+}
