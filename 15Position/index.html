@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coba Position</title>
+    <style>
+
+        body{
+            height: 2000px;
+        }
+
+
+        div{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .container{
+            border: solid 3px red;
+            width:600px;
+            height:650px;
+
+        }
+
+        .satu{
+            background-color: aqua;
+        }
+
+        .dua{
+            background-color: black;
+            position: fixed;
+            top:0;
+            left:0;
+            height: 30px;
+            width: 100%;
+            /* Fixed akan bergerak menurut elemen window
+            Ketika kita scrol ke bawah elemen tersebut akan ikut ke bawah */
+            /* position: absolute; 
+            Absolute menganggap ruangan yg senelumnya tidak ada
+            Elemen akan bergerak relatif elemen parent(dalam kasus ini body*/
+            /* position: relative; 
+            Postion relative digambarkan masju 1 dimensi 
+            Elemen akan bergerak sesuai posisi semula*/
+        }
+
+        .tiga{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+    </div>
+</body>
+</html>
