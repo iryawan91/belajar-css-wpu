@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan Z-Index</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .satu{background-color: chartreuse;}
+    .dua{
+        background-color: yellow;
+        top:100px;
+        left:100px;
+        z-index:2;
+        /* Nilai 9999 -> akan paling depan
+        Nilai -9999 -> akan peling belakang */
+    }
+    .tiga{
+        background-color: deeppink;
+        top: 200px;
+        left: 200px;
+    }
+    /* z index akan mengatur tumpukan yang non-static */
+</style>
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <!-- Akan berurutan sesuai posisi dimensi dibuatnya elemen -->
+</body>
+</html>
